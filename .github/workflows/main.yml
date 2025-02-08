@@ -41,8 +41,8 @@ jobs:
          
       - name: Commit resultsu
         run: |
-            git config --local user.email "zhuxinfu@sohu.com"
-            git config --local user.name "zhuxinfu88"
+            git config --local user.email "1294629234@qq.com"
+            git config --local user.name "tianwaifeifan"
             if [ -n "$(git status --porcelain)" ]; then
             git commit -am "Automatic update"
             git push  -f
